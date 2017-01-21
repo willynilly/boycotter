@@ -23,13 +23,13 @@ export class HomePage {
   }
 
   search(event: any) {
-
+    console.log(this.searchText);
     this.searchText = this.searchText.trim();
     if (this.searchText === '') {
       this.filteredFoxNewsCompanies = this.foxNewsCompanies.slice(0);
     } else {
       this.filteredFoxNewsCompanies = this.foxNewsCompanies.filter((c: Company) => {
-        return c.name.indexOf(this.searchText) !== -1;
+        return c.name.toLowerCase().indexOf(this.searchText.toLowerCase()) !== -1;
       });
     }
   }

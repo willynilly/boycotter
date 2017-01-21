@@ -5,8 +5,7 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-searchbar (ionInput)="search($event)" [value]="searchText"></ion-searchbar>
-
+  <ion-searchbar (ionInput)="search($event)" [(ngModel)]="searchText"></ion-searchbar>
   <ion-list>
     <ion-list-header>
       Companies that advertise on Fox News
