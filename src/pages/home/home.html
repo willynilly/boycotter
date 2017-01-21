@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Boycott</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-searchbar (ionInput)="search($event)" [value]="searchText"></ion-searchbar>
+
+  <ion-list>
+    <ion-list-header>
+      Companies that advertise on Fox News
+    </ion-list-header>
+    <ion-item *ngFor="let company of filteredFoxNewsCompanies">
+      {{ company.name }}
+    </ion-item>
+  </ion-list>
+</ion-content>
