@@ -1,14 +1,709 @@
 [{
-    "name": "Nutrisystem",
+    "name": "1-800-PetMeds",
     "advertisesOn": ["Fox News"]
-  }, {
-    "name": "24 Hour Fitness",
-    "advertisesOn": ["Fox News"]
-
   },
   {
-    "name": "23andMe.com",
+    "name": "24 Hour Fitness",
     "advertisesOn": ["Fox News"]
-
+  },
+  {
+    "name": "60 Plus",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "AARP",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Accu Chek Aviva",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Acura",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Adobe",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Advair",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "ADT Security Services, Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Aflac",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Ally Bank",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "American Movie Channel",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Aricept",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Astra Zeneca",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "AT & T",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Avaya",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Avodart",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Bankrate.com",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Bayer",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Binder & Binder",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Best Buy",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Black & Decker",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "BMW",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Boeing",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Boniva",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Bridgestone Tires",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Brita Filter",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Broadview Security",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Buick",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Bristol-Meyers",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Burlington Coat Factory",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Cadillac",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Campbell Soup",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Capital One Services, Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Capzasin",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "CarsDirect.com",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Celebrity Cruises",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Centrum",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "CheapTickets.com",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Chemistry.com",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Chevrolet",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Choice Hotels",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Cingular",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Clairol",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Claritin",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "The Clorox Company",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Comcast",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "ComData",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Community Financial Services Association of America",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Conservatives for Patients’ Rights",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Crest Whitestrips",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Cylapril",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Dawn",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Dannon",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Dell",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Delphi",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Dickensons Witch Hazel",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "DirectBuy, Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Direct TV",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Ditech",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Dodge",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Dr. Blaines",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Duracell (Procter & Gamble)",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Earthlink",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Edward Jones Investments",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Eloan.com",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Enova",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Fidelity Investments",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Florida Department of Citrus Headquarters",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Ford Motor Company",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Forex.com",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Franklin Templeton Investments",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "FreeEnterpriseAmerica.com",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Garlique",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "General Motors",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "GMC",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Gold Bond",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Golden Corral",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Goldline International, Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "GoToMeeting",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "HealthMart Pharmacy",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Healthy Choice",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Hefty Bags",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "The Hertz Corporation",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Holiday Inn Express",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "hotels.com  (Expedia,Inc.)",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Hewlett-Packard",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "HSBC Life Insurance",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Hula Networks",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Hummer",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Hyatt Corporation",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Hydrolyze",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Hyundai",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "IAMS",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Infiniti",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Intel",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Jeep / Daimler Chrysler",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Finish Jet Dry (Dishwasher Products)",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "John H. Daniel, Custom Tailors",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Kellogg Company",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Kraft Foods Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "L. L. Bean",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Laurie Azzano",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Lear Capital, Inc",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Lee Majors Rechargeable Bionic Hearing Aid",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Lending Tree",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "LensCrafters, Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Lexus",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Liberty  Medical",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Liberty Mutual Insurance",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "LifeLock",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Lincoln-Mercury",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Lipitor (Pfizer, Inc.)",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Lowe’s",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Lunesta",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Men’s Wearhouse",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Mercedes-Benz",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Metastock",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Morgan Stanley",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Napster.com",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "National Collector’s Mint",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Nationwide Insurance",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Nestlé USA, Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Nexium",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Nextel (aka Sprint)",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Nissan",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Office Depot",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "One-a-Day",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "OneTouch (LifeScan)",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "OnStar",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "On the Border Mexican Grill & Cantina",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Orbitz",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Oxi Clean",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Pep Boys",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Pfizer Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Pfizer – NFA Nat’l Fibromyalgia  Association",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Plavix",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Priceline.com",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "The Procter & Gamble Company",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Progressive Insurance",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "ProtectMyID.com",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Prudential Real Estate",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Radio Shack",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Rapid Bath",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Red Lobster",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Remax",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Rosetta Stone",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Sargento",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Scrubbing Bubbles Shower Cleaner",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Servpro Industries, Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Skip Gambert and Associates",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Spiriva",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Splenda",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Sprint",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "State Farm Insurance",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Subaru",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Super 8 Motels",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Superior Gold Group",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Target",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Terminix",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "ThermaCare",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Time Warner Cable Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Totino’s Pizza Rolls (Pillsbury / General Mills)",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Toyota",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Travelocity",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Tyson Foods",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "UBS Financial Services Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "United Healthcare Insurance Company",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Vehix.com",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Wachovia Finance",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Wall Street Journal",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Wal-Mart Stores, Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Water Jet",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "WebMD",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Weitz & Luxemburg",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Yahoo! Inc.",
+    "advertisesOn": ["Fox News"]
+  },
+  {
+    "name": "Yellow Book",
+    "advertisesOn": ["Fox News"]
   }
 ]
