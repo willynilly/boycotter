@@ -11,6 +11,7 @@ or one that is less right-wing.
 ## Developer Instructions
 
 ```
+git clone https://github.com/willynilly/boycotter.git
 cd boycotter
 npm install -g ionic
 npm install
