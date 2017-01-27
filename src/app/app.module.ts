@@ -2,15 +2,18 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { AboutPage } from '../pages/about/about';
-import { HomePage } from '../pages/home/home';
+import { CompanyProfilePage } from '../pages/company-profile/company-profile';
+import { BoycottPage } from '../pages/boycott/boycott';
 import { TabsPage } from '../pages/tabs/tabs';
 import { CompanyService } from '../services/companies.service';
+
 
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
-    HomePage,
+    BoycottPage,
+    CompanyProfilePage,
     TabsPage
   ],
   imports: [
@@ -20,7 +23,8 @@ import { CompanyService } from '../services/companies.service';
   entryComponents: [
     MyApp,
     AboutPage,
-    HomePage,
+    BoycottPage,
+    CompanyProfilePage,
     TabsPage
   ],
   providers: [

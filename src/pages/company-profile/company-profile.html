@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Boycott Company</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div *ngIf="company">
+    <ion-grid>
+      <ion-row>
+        <ion-col><strong>Company</strong></ion-col>
+        <ion-col>{{ company.name }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <strong>Advertises On</strong>
+        </ion-col>
+        <ion-col>
+          {{ company.advertisesOn }}
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-list>
+
+            <ion-item>
+              <ion-label stacked>Competitor Name</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <button ion-button full>Report Buying From Competitor</button>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { CompanyService } from '../../services/companies.service';
 import { Company } from '../modes/company.model';
+import { CompanyProfilePage } from '../company-profile/company-profile';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-boycott',
+  templateUrl: 'boycott.html'
 })
-export class HomePage {
+export class BoycottPage {
 
   private companies: Company[];
   private foxNewsCompanies: Company[];
@@ -38,6 +39,10 @@ export class HomePage {
     return this.companies.filter((company) => {
       return company.advertisesOn.indexOf(mediaName) !== -1;
     });
+  }
+
+  selectCompany(company: Company) {
+    this.navCtrl.push(CompanyProfilePage, { 'company': company });
   }
 
 }

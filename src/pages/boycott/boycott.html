@@ -10,8 +10,8 @@
     <ion-list-header>
       Companies that advertise on Fox News
     </ion-list-header>
-    <ion-item *ngFor="let company of filteredFoxNewsCompanies">
+    <button ion-item *ngFor="let company of filteredFoxNewsCompanies" (click)="selectCompany(company)">
       {{ company.name }}
-    </ion-item>
+    </button>
   </ion-list>
 </ion-content>
