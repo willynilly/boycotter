@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Campaigns</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-searchbar (ionInput)="search($event)" [(ngModel)]="searchText"></ion-searchbar>
+  <ion-list *ngFor="let campaign of filteredCampaigns">
+    <button ion-item (click)="selectCampaign(campaign)">
+      {{ campaign.name}}
+    </button>
+  </ion-list>
+</ion-content>

@@ -1,7 +1,11 @@
+import _ from 'lodash';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { CompanyService } from '../../services/companies.service';
-import { Company } from '../modes/company.model';
+import { CompanyService } from '../../services/company.service';
+import { CampaignService } from '../../services/campaign.service';
+
+import { Campaign } from '../../models/campaign.model';
+import { Company } from '../../models/company.model';
 import { CompanyProfilePage } from '../company-profile/company-profile';
 
 @Component({
@@ -10,34 +14,53 @@ import { CompanyProfilePage } from '../company-profile/company-profile';
 })
 export class BoycottPage {
 
-  private companies: Company[];
-  private foxNewsCompanies: Company[];
-  private filteredFoxNewsCompanies: Company[];
+  private campaigns: Campaign[];
+  private allCompanies: Company[];
   private searchText: string = '';
+  private companiesByCampaign: Object;
+  private filteredCompaniesByCampaign;
 
-  constructor(public navCtrl: NavController, private companyService: CompanyService) {
+  constructor(public navCtrl: NavController, private companyService: CompanyService, private campaignService: CampaignService) {
     this.companyService.getCompanies().then((companies: Company[]) => {
-      this.companies = companies;
-      this.foxNewsCompanies = this.filterByAdvertisesOn('Fox News');
-      this.filteredFoxNewsCompanies = this.foxNewsCompanies.slice(0);
+      this.allCompanies = companies;
+      this.campaignService.getCampaigns().then((campaigns: Campaign[]) => {
+        this.campaigns = campaigns;
+        this.companiesByCampaign = this.filterCompaniesByCampaigns(this.campaigns);
+        this.filteredCompaniesByCampaign = _.cloneDeep(this.companiesByCampaign);
+      });
     });
   }
 
-  search(event: any) {
-    console.log(this.searchText);
-    this.searchText = this.searchText.trim();
-    if (this.searchText === '') {
-      this.filteredFoxNewsCompanies = this.foxNewsCompanies.slice(0);
-    } else {
-      this.filteredFoxNewsCompanies = this.foxNewsCompanies.filter((c: Company) => {
-        return c.name.toLowerCase().indexOf(this.searchText.toLowerCase()) !== -1;
-      });
-    }
+  filterCompaniesByCampaigns(campaigns: Campaign[]) {
+    let companiesByCampaigns = {};
+    campaigns.forEach((campaign: Campaign) => {
+      companiesByCampaigns[campaign.id] = this.filterByCampaign(campaign);
+    });
+    return companiesByCampaigns;
   }
 
-  filterByAdvertisesOn(mediaName: string): Company[] {
-    return this.companies.filter((company) => {
-      return company.advertisesOn.indexOf(mediaName) !== -1;
+  filterCampaignCompaniesBySearchText(searchText) {
+    searchText = searchText.trim();
+    let filteredCompaniesByCampaign = {};
+    if (searchText === '') {
+      filteredCompaniesByCampaign = _.cloneDeep(this.companiesByCampaign);
+    } else {
+      for (let campaignId in this.companiesByCampaign) {
+        filteredCompaniesByCampaign[campaignId] = this.companiesByCampaign[campaignId].filter((c: Company) => {
+          return c.name.toLowerCase().indexOf(this.searchText.toLowerCase()) !== -1;
+        });
+      }
+    }
+    return filteredCompaniesByCampaign;
+  }
+
+  search(event: any) {
+    this.filteredCompaniesByCampaign = this.filterCampaignCompaniesBySearchText(this.searchText);
+  }
+
+  filterByCampaign(campaign: Campaign): Company[] {
+    return this.allCompanies.filter((company: Company) => {
+      return campaign.companies.indexOf(company.id) !== -1;
     });
   }
 

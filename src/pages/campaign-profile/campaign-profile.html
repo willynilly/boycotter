@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Campaign</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div *ngIf="campaign">
+    <ion-grid>
+      <ion-row>
+        <ion-col><strong>Campaign</strong></ion-col>
+        <ion-col>{{ campaign.name }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <strong>Description</strong>
+        </ion-col>
+        <ion-col>
+          {{ campaign.description }}
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <strong>Companies</strong>
+        </ion-col>
+        <ion-col>
+          <ion-grid>
+            <ion-row *ngFor="let company of companies">
+              <ion-col>{{ company.name }}</ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

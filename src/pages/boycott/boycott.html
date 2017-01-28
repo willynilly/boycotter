@@ -6,11 +6,11 @@
 
 <ion-content padding>
   <ion-searchbar (ionInput)="search($event)" [(ngModel)]="searchText"></ion-searchbar>
-  <ion-list>
+  <ion-list *ngFor="let campaign of campaigns">
     <ion-list-header>
-      Companies that advertise on Fox News
+      {{ campaign.name}}
     </ion-list-header>
-    <button ion-item *ngFor="let company of filteredFoxNewsCompanies" (click)="selectCompany(company)">
+    <button ion-item *ngFor="let company of filteredCompaniesByCampaign[campaign.id]" (click)="selectCompany(company)">
       {{ company.name }}
     </button>
   </ion-list>

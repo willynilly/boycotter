@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { CompanyService } from '../../services/companies.service';
-import { Company } from '../modes/company.model';
+import { CompanyService } from '../../services/company.service';
+import { Company } from '../../models/company.model';
 
 @Component({
     selector: 'page-company-profile',
