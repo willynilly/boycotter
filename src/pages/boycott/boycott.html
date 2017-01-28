@@ -10,7 +10,7 @@
     <ion-list-header>
       {{ campaign.name}}
     </ion-list-header>
-    <button ion-item *ngFor="let company of filteredCompaniesByCampaign[campaign.id]" (click)="selectCompany(company)">
+    <button text-wrap ion-item *ngFor="let company of filteredCompaniesByCampaign[campaign.id]" (click)="selectCompany(company)">
       {{ company.name }}
     </button>
   </ion-list>
